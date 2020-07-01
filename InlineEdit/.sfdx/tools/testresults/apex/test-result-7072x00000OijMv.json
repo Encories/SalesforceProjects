@@ -1,0 +1,46 @@
+{
+    "summary": {
+        "outcome": "Passed",
+        "testsRan": 1,
+        "passing": 1,
+        "failing": 0,
+        "skipped": 0,
+        "passRate": "100%",
+        "failRate": "0%",
+        "testStartTime": "Jun 30, 2020 3:25 PM",
+        "testExecutionTime": "310 ms",
+        "testTotalTime": "310 ms",
+        "commandTime": "12662 ms",
+        "hostname": "https://resilient-otter-pzmmjt-dev-ed.my.salesforce.com",
+        "orgId": "00D2x000005OWegEAG",
+        "username": "rubahin@resilient-otter-pzmmjt.com",
+        "testRunId": "7072x00000OijMv",
+        "userId": "0052x000002CYEbAAO"
+    },
+    "tests": [
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v48.0/tooling/sobjects/ApexTestResult/07M2x000000VEYiEAO"
+            },
+            "Id": "07M2x000000VEYiEAO",
+            "QueueItemId": "7092x000000PbVCAA0",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7072x00000OijMvAAJ",
+            "MethodName": "checkUpdateField_Negative",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v48.0/tooling/sobjects/ApexClass/01p2x000007G1G3AAK"
+                },
+                "Id": "01p2x000007G1G3AAK",
+                "Name": "TestInlineEditCtrl",
+                "NamespacePrefix": null
+            },
+            "RunTime": 310,
+            "FullName": "TestInlineEditCtrl.checkUpdateField_Negative"
+        }
+    ]
+}

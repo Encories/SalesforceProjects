@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="force.apex" timestamp="2020-06-30T15:29:36+03:00" hostname="https://resilient-otter-pzmmjt-dev-ed.my.salesforce.com" tests="1" failures="0"  errors="0"  time="1.24">
+        <properties>
+            <property name="outcome" value="Passed"/>
+            <property name="testsRan" value="1"/>
+            <property name="passing" value="1"/>
+            <property name="failing" value="0"/>
+            <property name="skipped" value="0"/>
+            <property name="passRate" value="100%"/>
+            <property name="failRate" value="0%"/>
+            <property name="testStartTime" value="Jun 30, 2020 3:29 PM"/>
+            <property name="testExecutionTime" value="1.24 s"/>
+            <property name="testTotalTime" value="1.24 s"/>
+            <property name="commandTime" value="14.67 s"/>
+            <property name="hostname" value="https://resilient-otter-pzmmjt-dev-ed.my.salesforce.com"/>
+            <property name="orgId" value="00D2x000005OWegEAG"/>
+            <property name="username" value="rubahin@resilient-otter-pzmmjt.com"/>
+            <property name="testRunId" value="7072x00000Oijg5"/>
+            <property name="userId" value="0052x000002CYEbAAO"/>
+        </properties>
+        <testcase name="checkDeleteAccount_Positive" classname="TestInlineEditCtrl" time="1.24">
+        </testcase>
+    </testsuite>
+</testsuites>

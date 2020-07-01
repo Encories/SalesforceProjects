@@ -1,0 +1,38 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "c/autoSave": [
+                "autoSave/autoSave.js"
+            ],
+            "c/autoSaveList": [
+                "autoSaveList/autoSaveList.js"
+            ],
+            "c/inlineEdit": [
+                "inlineEdit/inlineEdit.js"
+            ],
+            "c/inlineEditList": [
+                "inlineEditList/inlineEditList.js"
+            ],
+            "c/vertic": [
+                "vertic/vertic.js"
+            ],
+            "c/verticList": [
+                "verticList/verticList.js"
+            ],
+            "c/verticlwc": [
+                "verticlwc/verticlwc.js"
+            ]
+        }
+    },
+    "include": [
+        "**/*",
+        "../../../../.sfdx/typings/lwc/**/*.d.ts"
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "summary": {
+        "outcome": "Passed",
+        "testsRan": 1,
+        "passing": 1,
+        "failing": 0,
+        "skipped": 0,
+        "passRate": "100%",
+        "failRate": "0%",
+        "testStartTime": "Jun 30, 2020 2:55 PM",
+        "testExecutionTime": "321 ms",
+        "testTotalTime": "321 ms",
+        "commandTime": "11295 ms",
+        "hostname": "https://resilient-otter-pzmmjt-dev-ed.my.salesforce.com",
+        "orgId": "00D2x000005OWegEAG",
+        "username": "rubahin@resilient-otter-pzmmjt.com",
+        "testRunId": "7072x00000Oii4X",
+        "userId": "0052x000002CYEbAAO"
+    },
+    "tests": [
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v48.0/tooling/sobjects/ApexTestResult/07M2x000000VEY9EAO"
+            },
+            "Id": "07M2x000000VEY9EAO",
+            "QueueItemId": "7092x000000PbUxAAK",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7072x00000Oii4XAAR",
+            "MethodName": "checkGetAccounts_Positive",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v48.0/tooling/sobjects/ApexClass/01p2x000007G1G3AAK"
+                },
+                "Id": "01p2x000007G1G3AAK",
+                "Name": "TestInlineEditCtrl",
+                "NamespacePrefix": null
+            },
+            "RunTime": 321,
+            "FullName": "TestInlineEditCtrl.checkGetAccounts_Positive"
+        }
+    ]
+}

@@ -3,31 +3,46 @@ FORMAT  FILE
 ──────  ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
 txt     c:\Users\RVS\Documents\PRO\Salesforce\code\InlineEdit\.sfdx\tools\testresults\apex\test-result.txt
 txt     c:\Users\RVS\Documents\PRO\Salesforce\code\InlineEdit\.sfdx\tools\testresults\apex\test-run-id.txt
-junit   c:\Users\RVS\Documents\PRO\Salesforce\code\InlineEdit\.sfdx\tools\testresults\apex\test-result-7072x00000Oijp7-junit.xml
-json    c:\Users\RVS\Documents\PRO\Salesforce\code\InlineEdit\.sfdx\tools\testresults\apex\test-result-7072x00000Oijp7.json
+junit   c:\Users\RVS\Documents\PRO\Salesforce\code\InlineEdit\.sfdx\tools\testresults\apex\test-result-7072x00000OkF3S-junit.xml
+json    c:\Users\RVS\Documents\PRO\Salesforce\code\InlineEdit\.sfdx\tools\testresults\apex\test-result-7072x00000OkF3S.json
+json    c:\Users\RVS\Documents\PRO\Salesforce\code\InlineEdit\.sfdx\tools\testresults\apex\test-result-codecoverage.json
+
+=== Apex Code Coverage
+ID                  NAME            % COVERED  UNCOVERED LINES
+──────────────────  ──────────────  ─────────  ───────────────
+01p2x000007FiCcAAK  InlineEditCtrl  89%        15,27
 
 === Test Results
 TEST NAME                                       OUTCOME  MESSAGE  RUNTIME (MS)
 ──────────────────────────────────────────────  ───────  ───────  ────────────
-TestInlineEditCtrl.checkDeleteAccount_Negative  Pass              321
+TestInlineEditCtrl.checkDeleteAccount_Negative  Pass              280
+TestInlineEditCtrl.checkDeleteAccount_Positive  Pass              952
+TestInlineEditCtrl.checkGetAccounts_Negative    Pass              19
+TestInlineEditCtrl.checkGetAccounts_Positive    Pass              55
+TestInlineEditCtrl.checkPickList_Negative       Pass              13
+TestInlineEditCtrl.checkPickList_Positive       Pass              9
+TestInlineEditCtrl.checkUpdateField_Negative    Pass              73
+TestInlineEditCtrl.checkUpdateField_Positive    Pass              84
 
 === Test Summary
 NAME                 VALUE
 ───────────────────  ────────────────────────────────────────────────────────
 Outcome              Passed
-Tests Ran            1
-Passing              1
+Tests Ran            8
+Passing              8
 Failing              0
 Skipped              0
 Pass Rate            100%
 Fail Rate            0%
-Test Start Time      Jun 30, 2020 3:32 PM
-Test Execution Time  321 ms
-Test Total Time      321 ms
-Command Time         10417 ms
+Test Start Time      Jul 2, 2020 4:47 PM
+Test Execution Time  1485 ms
+Test Total Time      1485 ms
+Command Time         12436 ms
 Hostname             https://resilient-otter-pzmmjt-dev-ed.my.salesforce.com
 Org Id               00D2x000005OWegEAG
 Username             rubahin@resilient-otter-pzmmjt.com
-Test Run Id          7072x00000Oijp7
+Test Run Id          7072x00000OkF3S
 User Id              0052x000002CYEbAAO
+Test Run Coverage    89%
+Org Wide Coverage    14%
 

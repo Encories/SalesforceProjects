@@ -1,0 +1,138 @@
+{
+    "summary": {
+        "outcome": "Failed",
+        "testsRan": 1,
+        "passing": 0,
+        "failing": 1,
+        "skipped": 0,
+        "passRate": "0%",
+        "failRate": "100%",
+        "testStartTime": "Jul 2, 2020 4:44 PM",
+        "testExecutionTime": "55 ms",
+        "testTotalTime": "55 ms",
+        "commandTime": "9244 ms",
+        "hostname": "https://resilient-otter-pzmmjt-dev-ed.my.salesforce.com",
+        "orgId": "00D2x000005OWegEAG",
+        "username": "rubahin@resilient-otter-pzmmjt.com",
+        "testRunId": "7072x00000OkEz6",
+        "userId": "0052x000002CYEbAAO",
+        "testRunCoverage": "36%",
+        "orgWideCoverage": "6%"
+    },
+    "tests": [
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v48.0/tooling/sobjects/ApexTestResult/07M2x000000VFwWEAW"
+            },
+            "Id": "07M2x000000VFwWEAW",
+            "QueueItemId": "7092x000000PbboAAC",
+            "StackTrace": "Class.TestInlineEditCtrl.checkPickList_Negative: line 141, column 1",
+            "Message": "System.AssertException: Assertion Failed: Expected: ({label=Test, value=Test}, {label=Test, value=Test}, {label=Test, value=Test}), Actual: ({label=Hot, value=Hot}, {label=Warm, value=Warm}, {label=Cold, value=Cold})",
+            "AsyncApexJobId": "7072x00000OkEz6AAF",
+            "MethodName": "checkPickList_Negative",
+            "Outcome": "Fail",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v48.0/tooling/sobjects/ApexClass/01p2x000007G1G3AAK"
+                },
+                "Id": "01p2x000007G1G3AAK",
+                "Name": "TestInlineEditCtrl",
+                "NamespacePrefix": null
+            },
+            "RunTime": 55,
+            "FullName": "TestInlineEditCtrl.checkPickList_Negative"
+        }
+    ],
+    "coverage": {
+        "coverage": [
+            {
+                "id": "01p2x000007FiCcAAK",
+                "name": "InlineEditCtrl",
+                "totalLines": 19,
+                "lines": {
+                    "4": 0,
+                    "5": 0,
+                    "12": 0,
+                    "13": 0,
+                    "14": 0,
+                    "15": 0,
+                    "18": 0,
+                    "23": 0,
+                    "24": 0,
+                    "25": 0,
+                    "26": 0,
+                    "27": 0,
+                    "33": 1,
+                    "34": 1,
+                    "35": 1,
+                    "36": 1,
+                    "37": 1,
+                    "38": 1,
+                    "41": 1
+                },
+                "totalCovered": 7,
+                "coveredPercent": 36.84210526315789
+            }
+        ],
+        "records": [
+            {
+                "attributes": {
+                    "type": "ApexCodeCoverage",
+                    "url": "/services/data/v48.0/tooling/sobjects/ApexCodeCoverage/7142x000000bTeAAAU"
+                },
+                "ApexTestClass": {
+                    "attributes": {
+                        "type": "ApexClass",
+                        "url": "/services/data/v48.0/tooling/sobjects/ApexClass/01p2x000007G1G3AAK"
+                    },
+                    "Id": "01p2x000007G1G3AAK",
+                    "Name": "TestInlineEditCtrl"
+                },
+                "Coverage": {
+                    "coveredLines": [
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        41
+                    ],
+                    "uncoveredLines": [
+                        4,
+                        5,
+                        12,
+                        13,
+                        14,
+                        15,
+                        18,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27
+                    ]
+                },
+                "TestMethodName": "checkPickList_Negative",
+                "NumLinesCovered": 7,
+                "ApexClassOrTrigger": {
+                    "attributes": {
+                        "type": "Name",
+                        "url": "/services/data/v48.0/tooling/sobjects/ApexClass/01p2x000007FiCcAAK"
+                    },
+                    "Id": "01p2x000007FiCcAAK",
+                    "Name": "InlineEditCtrl"
+                },
+                "NumLinesUncovered": 12
+            }
+        ],
+        "summary": {
+            "totalLines": 19,
+            "coveredLines": 7,
+            "testRunCoverage": "36%",
+            "orgWideCoverage": "6%"
+        }
+    }
+}

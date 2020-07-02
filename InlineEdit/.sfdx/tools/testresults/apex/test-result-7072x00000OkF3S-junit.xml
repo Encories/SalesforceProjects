@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="force.apex" timestamp="2020-07-02T16:47:10+03:00" hostname="https://resilient-otter-pzmmjt-dev-ed.my.salesforce.com" tests="8" failures="0"  errors="0"  time="1.49">
+        <properties>
+            <property name="outcome" value="Passed"/>
+            <property name="testsRan" value="8"/>
+            <property name="passing" value="8"/>
+            <property name="failing" value="0"/>
+            <property name="skipped" value="0"/>
+            <property name="passRate" value="100%"/>
+            <property name="failRate" value="0%"/>
+            <property name="testStartTime" value="Jul 2, 2020 4:47 PM"/>
+            <property name="testExecutionTime" value="1.49 s"/>
+            <property name="testTotalTime" value="1.49 s"/>
+            <property name="commandTime" value="12.44 s"/>
+            <property name="hostname" value="https://resilient-otter-pzmmjt-dev-ed.my.salesforce.com"/>
+            <property name="orgId" value="00D2x000005OWegEAG"/>
+            <property name="username" value="rubahin@resilient-otter-pzmmjt.com"/>
+            <property name="testRunId" value="7072x00000OkF3S"/>
+            <property name="userId" value="0052x000002CYEbAAO"/>
+            <property name="testRunCoverage" value="89%"/>
+            <property name="orgWideCoverage" value="14%"/>
+        </properties>
+        <testcase name="checkDeleteAccount_Negative" classname="TestInlineEditCtrl" time="0.28">
+        </testcase>
+        <testcase name="checkDeleteAccount_Positive" classname="TestInlineEditCtrl" time="0.95">
+        </testcase>
+        <testcase name="checkGetAccounts_Negative" classname="TestInlineEditCtrl" time="0.02">
+        </testcase>
+        <testcase name="checkGetAccounts_Positive" classname="TestInlineEditCtrl" time="0.06">
+        </testcase>
+        <testcase name="checkPickList_Negative" classname="TestInlineEditCtrl" time="0.01">
+        </testcase>
+        <testcase name="checkPickList_Positive" classname="TestInlineEditCtrl" time="0.01">
+        </testcase>
+        <testcase name="checkUpdateField_Negative" classname="TestInlineEditCtrl" time="0.07">
+        </testcase>
+        <testcase name="checkUpdateField_Positive" classname="TestInlineEditCtrl" time="0.08">
+        </testcase>
+    </testsuite>
+</testsuites>

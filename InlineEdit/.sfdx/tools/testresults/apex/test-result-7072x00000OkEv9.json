@@ -1,0 +1,582 @@
+{
+    "summary": {
+        "outcome": "Passed",
+        "testsRan": 7,
+        "passing": 7,
+        "failing": 0,
+        "skipped": 0,
+        "passRate": "100%",
+        "failRate": "0%",
+        "testStartTime": "Jul 2, 2020 4:42 PM",
+        "testExecutionTime": "2091 ms",
+        "testTotalTime": "2091 ms",
+        "commandTime": "26637 ms",
+        "hostname": "https://resilient-otter-pzmmjt-dev-ed.my.salesforce.com",
+        "orgId": "00D2x000005OWegEAG",
+        "username": "rubahin@resilient-otter-pzmmjt.com",
+        "testRunId": "7072x00000OkEv9",
+        "userId": "0052x000002CYEbAAO",
+        "testRunCoverage": "89%",
+        "orgWideCoverage": "14%"
+    },
+    "tests": [
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v48.0/tooling/sobjects/ApexTestResult/07M2x000000VFwMEAW"
+            },
+            "Id": "07M2x000000VFwMEAW",
+            "QueueItemId": "7092x000000PbbjAAC",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7072x00000OkEv9AAF",
+            "MethodName": "checkDeleteAccount_Negative",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v48.0/tooling/sobjects/ApexClass/01p2x000007G1G3AAK"
+                },
+                "Id": "01p2x000007G1G3AAK",
+                "Name": "TestInlineEditCtrl",
+                "NamespacePrefix": null
+            },
+            "RunTime": 523,
+            "FullName": "TestInlineEditCtrl.checkDeleteAccount_Negative"
+        },
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v48.0/tooling/sobjects/ApexTestResult/07M2x000000VFwNEAW"
+            },
+            "Id": "07M2x000000VFwNEAW",
+            "QueueItemId": "7092x000000PbbjAAC",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7072x00000OkEv9AAF",
+            "MethodName": "checkDeleteAccount_Positive",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v48.0/tooling/sobjects/ApexClass/01p2x000007G1G3AAK"
+                },
+                "Id": "01p2x000007G1G3AAK",
+                "Name": "TestInlineEditCtrl",
+                "NamespacePrefix": null
+            },
+            "RunTime": 1298,
+            "FullName": "TestInlineEditCtrl.checkDeleteAccount_Positive"
+        },
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v48.0/tooling/sobjects/ApexTestResult/07M2x000000VFwOEAW"
+            },
+            "Id": "07M2x000000VFwOEAW",
+            "QueueItemId": "7092x000000PbbjAAC",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7072x00000OkEv9AAF",
+            "MethodName": "checkGetAccounts_Negative",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v48.0/tooling/sobjects/ApexClass/01p2x000007G1G3AAK"
+                },
+                "Id": "01p2x000007G1G3AAK",
+                "Name": "TestInlineEditCtrl",
+                "NamespacePrefix": null
+            },
+            "RunTime": 23,
+            "FullName": "TestInlineEditCtrl.checkGetAccounts_Negative"
+        },
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v48.0/tooling/sobjects/ApexTestResult/07M2x000000VFwPEAW"
+            },
+            "Id": "07M2x000000VFwPEAW",
+            "QueueItemId": "7092x000000PbbjAAC",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7072x00000OkEv9AAF",
+            "MethodName": "checkGetAccounts_Positive",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v48.0/tooling/sobjects/ApexClass/01p2x000007G1G3AAK"
+                },
+                "Id": "01p2x000007G1G3AAK",
+                "Name": "TestInlineEditCtrl",
+                "NamespacePrefix": null
+            },
+            "RunTime": 73,
+            "FullName": "TestInlineEditCtrl.checkGetAccounts_Positive"
+        },
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v48.0/tooling/sobjects/ApexTestResult/07M2x000000VFwQEAW"
+            },
+            "Id": "07M2x000000VFwQEAW",
+            "QueueItemId": "7092x000000PbbjAAC",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7072x00000OkEv9AAF",
+            "MethodName": "checkPickList_Positive",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v48.0/tooling/sobjects/ApexClass/01p2x000007G1G3AAK"
+                },
+                "Id": "01p2x000007G1G3AAK",
+                "Name": "TestInlineEditCtrl",
+                "NamespacePrefix": null
+            },
+            "RunTime": 15,
+            "FullName": "TestInlineEditCtrl.checkPickList_Positive"
+        },
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v48.0/tooling/sobjects/ApexTestResult/07M2x000000VFwREAW"
+            },
+            "Id": "07M2x000000VFwREAW",
+            "QueueItemId": "7092x000000PbbjAAC",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7072x00000OkEv9AAF",
+            "MethodName": "checkUpdateField_Negative",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v48.0/tooling/sobjects/ApexClass/01p2x000007G1G3AAK"
+                },
+                "Id": "01p2x000007G1G3AAK",
+                "Name": "TestInlineEditCtrl",
+                "NamespacePrefix": null
+            },
+            "RunTime": 76,
+            "FullName": "TestInlineEditCtrl.checkUpdateField_Negative"
+        },
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v48.0/tooling/sobjects/ApexTestResult/07M2x000000VFwSEAW"
+            },
+            "Id": "07M2x000000VFwSEAW",
+            "QueueItemId": "7092x000000PbbjAAC",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7072x00000OkEv9AAF",
+            "MethodName": "checkUpdateField_Positive",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v48.0/tooling/sobjects/ApexClass/01p2x000007G1G3AAK"
+                },
+                "Id": "01p2x000007G1G3AAK",
+                "Name": "TestInlineEditCtrl",
+                "NamespacePrefix": null
+            },
+            "RunTime": 83,
+            "FullName": "TestInlineEditCtrl.checkUpdateField_Positive"
+        }
+    ],
+    "coverage": {
+        "coverage": [
+            {
+                "id": "01p2x000007FiCcAAK",
+                "name": "InlineEditCtrl",
+                "totalLines": 19,
+                "lines": {
+                    "4": 1,
+                    "5": 1,
+                    "12": 1,
+                    "13": 1,
+                    "14": 1,
+                    "15": 0,
+                    "18": 1,
+                    "23": 1,
+                    "24": 1,
+                    "25": 1,
+                    "26": 1,
+                    "27": 0,
+                    "33": 1,
+                    "34": 1,
+                    "35": 1,
+                    "36": 1,
+                    "37": 1,
+                    "38": 1,
+                    "41": 1
+                },
+                "totalCovered": 17,
+                "coveredPercent": 89
+            }
+        ],
+        "records": [
+            {
+                "attributes": {
+                    "type": "ApexCodeCoverage",
+                    "url": "/services/data/v48.0/tooling/sobjects/ApexCodeCoverage/7142x000000bTe3AAE"
+                },
+                "ApexTestClass": {
+                    "attributes": {
+                        "type": "ApexClass",
+                        "url": "/services/data/v48.0/tooling/sobjects/ApexClass/01p2x000007G1G3AAK"
+                    },
+                    "Id": "01p2x000007G1G3AAK",
+                    "Name": "TestInlineEditCtrl"
+                },
+                "Coverage": {
+                    "coveredLines": [
+                        4,
+                        5,
+                        23
+                    ],
+                    "uncoveredLines": [
+                        12,
+                        13,
+                        14,
+                        15,
+                        18,
+                        24,
+                        25,
+                        26,
+                        27,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        41
+                    ]
+                },
+                "TestMethodName": "checkGetAccounts_Positive",
+                "NumLinesCovered": 3,
+                "ApexClassOrTrigger": {
+                    "attributes": {
+                        "type": "Name",
+                        "url": "/services/data/v48.0/tooling/sobjects/ApexClass/01p2x000007FiCcAAK"
+                    },
+                    "Id": "01p2x000007FiCcAAK",
+                    "Name": "InlineEditCtrl"
+                },
+                "NumLinesUncovered": 16
+            },
+            {
+                "attributes": {
+                    "type": "ApexCodeCoverage",
+                    "url": "/services/data/v48.0/tooling/sobjects/ApexCodeCoverage/7142x000000bTe4AAE"
+                },
+                "ApexTestClass": {
+                    "attributes": {
+                        "type": "ApexClass",
+                        "url": "/services/data/v48.0/tooling/sobjects/ApexClass/01p2x000007G1G3AAK"
+                    },
+                    "Id": "01p2x000007G1G3AAK",
+                    "Name": "TestInlineEditCtrl"
+                },
+                "Coverage": {
+                    "coveredLines": [
+                        4,
+                        12,
+                        13,
+                        14,
+                        18,
+                        23,
+                        33
+                    ],
+                    "uncoveredLines": [
+                        5,
+                        15,
+                        24,
+                        25,
+                        26,
+                        27,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        41
+                    ]
+                },
+                "TestMethodName": "checkUpdateField_Positive",
+                "NumLinesCovered": 7,
+                "ApexClassOrTrigger": {
+                    "attributes": {
+                        "type": "Name",
+                        "url": "/services/data/v48.0/tooling/sobjects/ApexClass/01p2x000007FiCcAAK"
+                    },
+                    "Id": "01p2x000007FiCcAAK",
+                    "Name": "InlineEditCtrl"
+                },
+                "NumLinesUncovered": 12
+            },
+            {
+                "attributes": {
+                    "type": "ApexCodeCoverage",
+                    "url": "/services/data/v48.0/tooling/sobjects/ApexCodeCoverage/7142x000000bTe5AAE"
+                },
+                "ApexTestClass": {
+                    "attributes": {
+                        "type": "ApexClass",
+                        "url": "/services/data/v48.0/tooling/sobjects/ApexClass/01p2x000007G1G3AAK"
+                    },
+                    "Id": "01p2x000007G1G3AAK",
+                    "Name": "TestInlineEditCtrl"
+                },
+                "Coverage": {
+                    "coveredLines": [
+                        4,
+                        5,
+                        23
+                    ],
+                    "uncoveredLines": [
+                        12,
+                        13,
+                        14,
+                        15,
+                        18,
+                        24,
+                        25,
+                        26,
+                        27,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        41
+                    ]
+                },
+                "TestMethodName": "checkGetAccounts_Negative",
+                "NumLinesCovered": 3,
+                "ApexClassOrTrigger": {
+                    "attributes": {
+                        "type": "Name",
+                        "url": "/services/data/v48.0/tooling/sobjects/ApexClass/01p2x000007FiCcAAK"
+                    },
+                    "Id": "01p2x000007FiCcAAK",
+                    "Name": "InlineEditCtrl"
+                },
+                "NumLinesUncovered": 16
+            },
+            {
+                "attributes": {
+                    "type": "ApexCodeCoverage",
+                    "url": "/services/data/v48.0/tooling/sobjects/ApexCodeCoverage/7142x000000bTe6AAE"
+                },
+                "ApexTestClass": {
+                    "attributes": {
+                        "type": "ApexClass",
+                        "url": "/services/data/v48.0/tooling/sobjects/ApexClass/01p2x000007G1G3AAK"
+                    },
+                    "Id": "01p2x000007G1G3AAK",
+                    "Name": "TestInlineEditCtrl"
+                },
+                "Coverage": {
+                    "coveredLines": [
+                        23,
+                        24,
+                        25,
+                        26
+                    ],
+                    "uncoveredLines": [
+                        4,
+                        5,
+                        12,
+                        13,
+                        14,
+                        15,
+                        18,
+                        27,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        41
+                    ]
+                },
+                "TestMethodName": "checkDeleteAccount_Positive",
+                "NumLinesCovered": 4,
+                "ApexClassOrTrigger": {
+                    "attributes": {
+                        "type": "Name",
+                        "url": "/services/data/v48.0/tooling/sobjects/ApexClass/01p2x000007FiCcAAK"
+                    },
+                    "Id": "01p2x000007FiCcAAK",
+                    "Name": "InlineEditCtrl"
+                },
+                "NumLinesUncovered": 15
+            },
+            {
+                "attributes": {
+                    "type": "ApexCodeCoverage",
+                    "url": "/services/data/v48.0/tooling/sobjects/ApexCodeCoverage/7142x000000bTe7AAE"
+                },
+                "ApexTestClass": {
+                    "attributes": {
+                        "type": "ApexClass",
+                        "url": "/services/data/v48.0/tooling/sobjects/ApexClass/01p2x000007G1G3AAK"
+                    },
+                    "Id": "01p2x000007G1G3AAK",
+                    "Name": "TestInlineEditCtrl"
+                },
+                "Coverage": {
+                    "coveredLines": [
+                        4,
+                        23,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        41
+                    ],
+                    "uncoveredLines": [
+                        5,
+                        12,
+                        13,
+                        14,
+                        15,
+                        18,
+                        24,
+                        25,
+                        26,
+                        27
+                    ]
+                },
+                "TestMethodName": "checkPickList_Positive",
+                "NumLinesCovered": 9,
+                "ApexClassOrTrigger": {
+                    "attributes": {
+                        "type": "Name",
+                        "url": "/services/data/v48.0/tooling/sobjects/ApexClass/01p2x000007FiCcAAK"
+                    },
+                    "Id": "01p2x000007FiCcAAK",
+                    "Name": "InlineEditCtrl"
+                },
+                "NumLinesUncovered": 10
+            },
+            {
+                "attributes": {
+                    "type": "ApexCodeCoverage",
+                    "url": "/services/data/v48.0/tooling/sobjects/ApexCodeCoverage/7142x000000bTe8AAE"
+                },
+                "ApexTestClass": {
+                    "attributes": {
+                        "type": "ApexClass",
+                        "url": "/services/data/v48.0/tooling/sobjects/ApexClass/01p2x000007G1G3AAK"
+                    },
+                    "Id": "01p2x000007G1G3AAK",
+                    "Name": "TestInlineEditCtrl"
+                },
+                "Coverage": {
+                    "coveredLines": [
+                        4,
+                        12,
+                        13,
+                        14,
+                        18,
+                        23,
+                        33
+                    ],
+                    "uncoveredLines": [
+                        5,
+                        15,
+                        24,
+                        25,
+                        26,
+                        27,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        41
+                    ]
+                },
+                "TestMethodName": "checkUpdateField_Negative",
+                "NumLinesCovered": 7,
+                "ApexClassOrTrigger": {
+                    "attributes": {
+                        "type": "Name",
+                        "url": "/services/data/v48.0/tooling/sobjects/ApexClass/01p2x000007FiCcAAK"
+                    },
+                    "Id": "01p2x000007FiCcAAK",
+                    "Name": "InlineEditCtrl"
+                },
+                "NumLinesUncovered": 12
+            },
+            {
+                "attributes": {
+                    "type": "ApexCodeCoverage",
+                    "url": "/services/data/v48.0/tooling/sobjects/ApexCodeCoverage/7142x000000bTe9AAE"
+                },
+                "ApexTestClass": {
+                    "attributes": {
+                        "type": "ApexClass",
+                        "url": "/services/data/v48.0/tooling/sobjects/ApexClass/01p2x000007G1G3AAK"
+                    },
+                    "Id": "01p2x000007G1G3AAK",
+                    "Name": "TestInlineEditCtrl"
+                },
+                "Coverage": {
+                    "coveredLines": [
+                        23,
+                        24,
+                        25,
+                        26
+                    ],
+                    "uncoveredLines": [
+                        4,
+                        5,
+                        12,
+                        13,
+                        14,
+                        15,
+                        18,
+                        27,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        41
+                    ]
+                },
+                "TestMethodName": "checkDeleteAccount_Negative",
+                "NumLinesCovered": 4,
+                "ApexClassOrTrigger": {
+                    "attributes": {
+                        "type": "Name",
+                        "url": "/services/data/v48.0/tooling/sobjects/ApexClass/01p2x000007FiCcAAK"
+                    },
+                    "Id": "01p2x000007FiCcAAK",
+                    "Name": "InlineEditCtrl"
+                },
+                "NumLinesUncovered": 15
+            }
+        ],
+        "summary": {
+            "totalLines": 19,
+            "coveredLines": 17,
+            "testRunCoverage": "89%",
+            "orgWideCoverage": "14%"
+        }
+    }
+}
